@@ -14,7 +14,6 @@ var knex = require('knex')({
 });
 
 const param = process.argv;
-console.log()
  knex.insert([
     { first_name: param[2],
     last_name: param[3],
